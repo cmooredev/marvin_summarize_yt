@@ -1,11 +1,11 @@
-#Video Summary Generator
+# Video Summary Generator
 
 This Python script allows users to generate a summary of any YouTube video 
 by providing the video's URL. The summary is generated using an AI model, 
 and the transcript of the video is fetched using the 
 youtube_transcript_api.
 
-#Prerequisites
+# Prerequisites
 
 To run this script, you need the following libraries installed:
 
@@ -17,7 +17,7 @@ To run this script, you need the following libraries installed:
 Additionally, an API key for OpenAI is required. This key should be stored 
 in a .env file under the variable name MARVIN_OPENAI_API_KEY.
 
-##How to Use
+## How to Use
 
 Ensure that you have a .env file in your project directory with the 
 OpenAI API key stored as MARVIN_OPENAI_API_KEY.
