@@ -11,7 +11,7 @@ openai_api_key = os.getenv('MARVIN_OPENAI_API_KEY')
 @ai_fn
 def summarize_video(text: str) -> str:
     """
-    Create a fun and engaaing comment to make on the video based off the provided text.
+    Summarize the provided text
     """
 
 video_url = input("Enter the video url: ")
