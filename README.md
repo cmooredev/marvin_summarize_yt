@@ -12,7 +12,7 @@ To run this script, you need the following libraries installed:
     os
     dotenv
     youtube_transcript_api
-    marvin (a custom library that contains the ai_fn decorator)
+    marvin
 
 Additionally, an API key for OpenAI is required. This key should be stored 
 in a .env file under the variable name MARVIN_OPENAI_API_KEY.
